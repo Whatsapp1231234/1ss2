@@ -7,9 +7,9 @@ let [_, code] = link.match(linkRegex) || []
 if (!code) throw `${mg}🙌 𝘿𝙀𝘽𝙀 𝙄𝙉𝙂𝙍𝙀𝙎𝘼𝙍 𝙐𝙉 𝙀𝙉𝙇𝘼𝘾𝙀 | 𝙔𝙊𝙐 𝙈𝙐𝙎𝙏 𝙀𝙉𝙏𝙀𝙍 𝘼 𝙇𝙄𝙉𝙆\n😼 *Ingrese el enlace de un grupo.*\n*Enter the link of a group.*\n\n*𝙀𝙅𝙀𝙈𝙋𝙇𝙊 | 𝙀𝙓𝘼𝙈𝙋𝙇𝙀*\n*#unete ${nn}*\n\n*#join ${nnn}*`
 
 if ( isMods || isOwner || m.fromMe) {
-m.reply(`*𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 𝙎𝙀 𝙃𝘼 𝙐𝙉𝙄𝘿𝙊 𝘼𝙇 𝙂𝙍𝙐𝙋𝙊!! ✅*
+m.reply(`*Лилит 𝙎𝙀 𝙃𝘼 𝙐𝙉𝙄𝘿𝙊 𝘼𝙇 𝙂𝙍𝙐𝙋𝙊!! ✅*
 
-*𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 𝙃𝘼𝙎 𝙅𝙊𝙄𝙉𝙀𝘿 𝙏𝙃𝙀 𝙂𝙍𝙊𝙐𝙋!! ✅*
+*Лилит 𝙃𝘼𝙎 𝙅𝙊𝙄𝙉𝙀𝘿 𝙏𝙃𝙀 𝙂𝙍𝙊𝙐𝙋!! ✅*
 
 ‼️ 𝙎𝙄 𝘿𝙀 𝙇𝙊 𝘾𝙊𝙉𝙏𝙍𝘼𝙍𝙄𝙊 𝙉𝙊 𝙎𝙀 𝘼 𝙐𝙉𝙄𝘿𝙊 𝘼 𝙏𝙐 𝙂𝙍𝙐𝙋𝙊, 𝙑𝙀𝙍𝙄𝙁𝙄𝘾𝘼 𝙌𝙐𝙀 𝙉𝙊 𝙎𝙀 𝙃𝘼𝙇𝙇𝘼 𝙀𝙇𝙄𝙈𝙄𝙉𝘼𝘿𝙊 𝙊 𝙎𝘼𝙇𝙄𝘿𝙊 𝙍𝙀𝘾𝙄𝙀𝙉𝙏𝙀𝙈𝙀𝙉𝙏𝙀 𝙀𝙇 𝘽𝙊𝙏
 
@@ -27,6 +27,6 @@ m.reply(`${ag}*✅ TU ENLACE SE ENVIO A MI PROPIETARIO*\n*✅ YOUR LINK WAS SENT
 handler.help = ['join [chat.whatsapp.com]']
 handler.tags = ['owner']
 handler.command = /^unete|join|nuevogrupo|unir|unite|unirse|entra|entrar$/i 
-handler.register = true
+
 export default handler
 const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms))

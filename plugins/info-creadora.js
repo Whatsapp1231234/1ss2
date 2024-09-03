@@ -6,7 +6,7 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
 try{
 let contact, number, ofc, nombre, description, correo, lugar, enlace, biog
 let pp = gataImg
-const cat = `𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 💖🐈
+const cat = `Лилит 💖🐈
 * ${bot}
 
 *---------------------*
@@ -73,10 +73,10 @@ let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status
 conn.reply(m.chat, 'Mario.js', fkontak,  m)
 //------------ BIO
 let ppown = await conn.profilePictureUrl(nomorown + '@s.whatsapp.net', 'image').catch(_ => imagen1[1]) 
-let teksbio = `𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 💖🐈
+let teksbio = `Лилит 💖🐈
 *Wa.me/573136855110*
 𝙂𝙖𝙩𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿 💖🐈
-*wa.me/593993684821*
+*wa.me/+79011033947*
 *---------------------*
 *CENTER GATABOT*
 *centergatabot@gmail.com*

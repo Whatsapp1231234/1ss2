@@ -54,7 +54,6 @@ handler.tags = ['info']
 handler.command = /^(runtime|sc|activo)$/i
 handler.owner = false
 handler.mods = false
-handler.premium = false
 handler.group = false
 handler.private = false
 handler.admin = false

@@ -81,7 +81,6 @@ if (!('pasatiempo' in user)) user.pasatiempo = 0
 if (!('tiempo' in user)) user.tiempo = 0 
 if (!('miestado' in user)) user.miestado = 0
 if (!('midLanguage' in user)) user.midLanguage = 0
-if (!isNumber(user.premLimit)) user.premLimit = 0
 if (!isNumber(user.anggur)) user.anggur = 0
 if (!isNumber(user.apel)) user.apel = 0
 if (!isNumber(user.bibitanggur)) user.bibitanggur = 0

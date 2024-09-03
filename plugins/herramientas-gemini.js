@@ -15,6 +15,4 @@ handler.command = ['bard', 'gemini']
 handler.help = ['bard', 'gemini']
 handler.tags = ['herramientas']
 
-handler.premium = false
-
 export default handler

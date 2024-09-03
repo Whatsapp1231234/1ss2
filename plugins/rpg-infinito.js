@@ -14,10 +14,8 @@ handler.tags = ['owner']
 handler.command = /^(ilimitado|infiniy)$/i
 handler.rowner = true
 handler.mods = false
-handler.premium = false
 handler.group = false
 handler.private = false
-
 handler.admin = false
 handler.botAdmin = false
 
