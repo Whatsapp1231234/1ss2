@@ -15,7 +15,7 @@ import { en, es, id, ar, pt } from "./lib/idiomas/total-idiomas.js"
 global.owner = [
 ["+79011033947", '𝙊𝙬𝙣𝙚𝙧 💖🐈', true], //Лилит 💖🐈
 ["+79011033947"], 
-]
+,]
 
 global.mods = []
 global.prems = []
@@ -26,7 +26,7 @@ global.isBaileysFail = false
 
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 // ❰❰ RENDER ❱❱
-//Kurt18: Obtener el código QR por la URL del Hosting
+//Kurt18: Получить QR-код по URL-адресу хостинга
 global.obtenerQrWeb = 0; //Solo valores: 1 o 0
 //Kurt18: Aplica para Host Render.com
 global.keepAliveRender = 0; //Solo valores: 1 o 0
